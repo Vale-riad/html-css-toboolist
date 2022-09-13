@@ -35,3 +35,37 @@ h1{
 .logo{
     vertical-align: middle;
 }
+
+main{
+    margin-top: 40px;
+}
+.container{
+
+    backgroung:lightgray;
+    max-width: 800px;
+    margin: auto;
+}
+
+task{
+    background-color: #45ABEA;
+}
+
+.button{
+    display: inline-block;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px; 
+    border-style: none;
+}
+
+.task{
+    background-color: #2596ff;
+    color: white;
+    margin-left: 5%;
+    border: 0.5px solid #2596ff;
+}
+.add-section{
+    background-color: white;
+    color: lightgrey;
+    border: 0.5px solid lightgrey;
