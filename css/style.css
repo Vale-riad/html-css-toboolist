@@ -60,3 +60,9 @@ hr{
     border: 1;
 }
 
+span{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
