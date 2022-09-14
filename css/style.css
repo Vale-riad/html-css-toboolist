@@ -46,29 +46,52 @@ button {
     text-align: center;
     width: 150p;
     border-radius: 10px;
+    padding: 8px 10px;
+    border-radius: 5px
 }
 
 .task{
     background: #45ABEA;
+    
 
 }
 
+.add-section{
+    background: white;
+}
+
 hr{
-    color: lightgray;
-    color: lightgray;
+    color: lightgray;;
     margin-top: 1%;
     border: 1;
 }
 
-span{
-    display: inline-block;
-    vertical-align: top;
-    
+
+
+.task-list {
+    list-style: none;
 }
 
-.freccia{
-    margin-top: 10px;
+.task-list li {
+    padding: 8px 0;
 }
+
+.tag {
+    display: inline-block;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+}
+.tag-blue {
+    background-color: #45abea;
+}
+
+.tag-purple {
+    background-color: #9c72e4;
+}
+
+
 
 .circle-check{
     margin-top: 10px;
@@ -77,13 +100,24 @@ span{
     width: 20px;
     border width: 1px;
     border-style: solid;
-    border-radius: 50%;
+    border-radius: 80%;
     text-align: center;
     border-color: green;
+    color: green;
 }
 
-.button-editorial{
+
+.circle-cross{
+    margin-top: 10px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border width: 1px;
+    border-style: solid;
+    border-radius: 80%;
     text-align: center;
-    background: #45ABEA;
+    border-color: red;
+    color: red;
+
 
 }
